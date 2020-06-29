@@ -7,13 +7,13 @@
 #define MP_TUPLE_ID 0x02
 
 #ifndef N_PATHS
-#define N_PATHS 2
+#define N_PATHS 3
 #endif
 #ifndef MAX_PATHS
-#define MAX_PATHS 4
+#define MAX_PATHS 6
 #endif
 #ifndef MAX_ADDRS
-#define MAX_ADDRS 4
+#define MAX_ADDRS 6
 #endif
 
 #define PREPARE_NEW_CONNECTION_ID_FRAME (PROTOOPID_SENDER + 0x48)
